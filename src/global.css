@@ -1,0 +1,33 @@
+/* Global resets and base utilities for FoodNest */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { 
+  min-height: 100%; 
+  width: 100%;
+}
+body {
+  font-family: 'Plus Jakarta Sans', 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fcfbfa;
+  color: #1a1a24;
+  line-height: 1.5;
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Small helpers */
+.container { width: 100%; max-width: 1240px; margin: 0 auto; padding: 0 16px; }
+img { display: block; max-width: 100%; height: auto; }
+button { font: inherit; cursor: pointer; }
+
+/* Utility spacing */
+.mt-1 { margin-top: 0.5rem; }
+.mt-2 { margin-top: 1rem; }
+.mt-3 { margin-top: 1.5rem; }
+
+/* Make inputs inherit font and look consistent */
+input, textarea, select { font: inherit; }
+

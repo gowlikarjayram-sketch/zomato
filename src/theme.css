@@ -1,0 +1,26 @@
+/* Theme variables and small UI utilities */
+:root{
+  --bg: #faf8ff;
+  --card: #ffffff;
+  --text: #1f1d2b;
+  --muted: #6e6a80;
+  --accent: #6b46ff;
+  --accent-600: #5533d9;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --shadow-sm: 0 6px 16px rgba(31,29,43,0.06);
+}
+
+/* Buttons */
+.btn { display: inline-flex; align-items: center; gap: .6rem; padding: .7rem 1rem; border-radius: var(--radius-sm); border: none; cursor: pointer; background: var(--accent); color: #fff; box-shadow: var(--shadow-sm); }
+.btn.secondary { background: transparent; color: var(--accent); border: 1px solid rgba(107,70,255,0.12); }
+
+/* Cards */
+.card { background: var(--card); border-radius: var(--radius-md); box-shadow: var(--shadow-sm); padding: 1rem; }
+
+/* Tiny utilities */
+.text-muted { color: var(--muted); }
+.round { border-radius: 999px; }
+
+/* Accessibility focus */
+:focus { outline: 3px solid rgba(107,70,255,0.12); outline-offset: 2px; }
