@@ -1,5 +1,9 @@
 # 🍽️ FoodNest - Unified Food Discovery & Delivery Platform
 
+> 🌐 **Live Demo Website:** [https://gowlikarjayram-sketch.github.io/zomato/](https://gowlikarjayram-sketch.github.io/zomato/)
+>
+> 🚀 **GitHub Repository:** [https://github.com/gowlikarjayram-sketch/zomato](https://github.com/gowlikarjayram-sketch/zomato)
+
 Welcome to **FoodNest**, a comprehensive web application built to unify the fragmented food service industry. FoodNest brings local restaurants, home-based cloud kitchens, and bulk catering services together under one seamless, role-based platform.
 
 ---
